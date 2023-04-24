@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Book Title - Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* Reset some default styles */
+    body, h1, p {
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Container for the landing page */
+    .container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px;
+      text-align: center;
+    }
+    
+    /* Book cover image */
+    .book-cover {
+      max-width: 300px;
+      margin: 0 auto;
+    }
+    
+    /* Heading and subheading */
+    .heading {
+      margin-top: 40px;
+      font-size: 36px;
+      font-weight: bold;
+    }
+    
+    .subheading {
+      margin-top: 16px;
+      font-size: 18px;
+      color: #777;
+    }
+    
+    /* Call to action button */
+    .cta-button {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 12px 24px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+      background-color: #007bff;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+    
+    /* Responsive styles for smaller screens */
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+      }
+      
+      .heading {
+        font-size: 24px;
+      }
+      
+      .subheading {
+        font-size: 16px;
+      }
+      
+      .cta-button {
+        font-size: 16px;
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="book-cover.jpg" alt="Book Cover" class="book-cover">
+    <h1 class="heading">My Book Title</h1>
+    <p class="subheading">Subtitle or Tagline</p>
+    <a href="#" class="cta-button">Learn More</a>
+  </div>
+</body>
+</html>

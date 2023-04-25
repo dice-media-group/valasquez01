@@ -1,88 +1,182 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>My Book Title - Landing Page</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    /* Reset some default styles */
-    body, h1, p {
-      margin: 0;
-      padding: 0;
-    }
-    
-    /* Container for the landing page */
-    .container {
-      width: 100%;
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 40px;
-      text-align: center;
-    }
-    
-    /* Book cover image */
-    .book-cover {
-      max-width: 300px;
-      margin: 0 auto;
-    }
-    
-    /* Heading and subheading */
-    .heading {
-      margin-top: 40px;
-      font-size: 36px;
-      font-weight: bold;
-    }
-    
-    .subheading {
-      margin-top: 16px;
-      font-size: 18px;
-      color: #777;
-    }
-    
-    /* Call to action button */
-    .cta-button {
-      display: inline-block;
-      margin-top: 40px;
-      padding: 12px 24px;
-      font-size: 18px;
-      font-weight: bold;
-      text-decoration: none;
-      color: #fff;
-      background-color: #007bff;
-      border-radius: 4px;
-      transition: background-color 0.3s ease;
-    }
-    
-    .cta-button:hover {
-      background-color: #0056b3;
-    }
-    
-    /* Responsive styles for smaller screens */
-    @media (max-width: 768px) {
-      .container {
-        padding: 20px;
+  <head>
+    <title>Why Are We Here & Where Are We Going -- by Mickey Valasquez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      /* Reset some default styles */
+      body,
+      h1,
+      h2,
+      p,
+      blockquote,
+      ul,
+      li {
+        margin: 0;
+        padding: 0;
       }
-      
-      .heading {
+
+      /* Set default font styles */
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+      }
+
+      /* Set background image for the body */
+      body {
+        background-image: url('assets/heaven01.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+
+      /* Header styles */
+      header {
+        text-align: center;
+        padding: 40px;
+      }
+
+      .book-cover {
+        max-width: 300px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        font-size: 36px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      nav {
+        margin-top: 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+      }
+
+      nav ul li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      /* Main content styles */
+      main {
+        padding: 40px;
+      }
+
+      section {
+        margin-bottom: 40px;
+      }
+
+      h2 {
         font-size: 24px;
+        margin-bottom: 10px;
       }
-      
-      .subheading {
+
+      p {
         font-size: 16px;
+        margin-bottom: 20px;
       }
-      
-      .cta-button {
+
+      blockquote {
         font-size: 16px;
-        padding: 10px 20px;
+        margin-bottom: 20px;
       }
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <img src="book-cover.jpg" alt="Book Cover" class="book-cover">
-    <h1 class="heading">My Book Title</h1>
-    <p class="subheading">Subtitle or Tagline</p>
-    <a href="#" class="cta-button">Learn More</a>
-  </div>
-</body>
+
+      /* Buy Now button styles */
+      .button {
+        display: inline-block;
+        padding: 12px 20px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 3px;
+      }
+
+      .button:hover {
+        background-color: #555;
+      }
+
+      /* Footer styles */
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #f8f8f8;
+      }
+
+      /* Copyright text styles */
+      footer p {
+        font-size: 14px;
+        color: #666;
+      }
+      h1, h2, p, blockquote {
+        color: #fff; /* Use a light color for dark backgrounds */
+      }
+      h1 {
+        font-size: 40px; /* Increase font size for better readability */
+        font-weight: bold; /* Use a bold font weight for added emphasis */
+      }
+
+      /* Example of adding text shadow */
+      h1, h2, section p, blockquote {
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="assets/book_cover.jpg" alt="Book Cover" class="book-cover">
+      <h1>Why Are We Here & Where Are We Going</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#excerpt">Excerpt</a></li>
+          <li><a href="#buy-now">Buy Now</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About the Book</h2>
+        <p><em>Why Are We Here & Where Are We Going</em> explores spiritual and paranormal topics such as the afterlife, reincarnation, spirit guides, and the existence of God and Jesus. The author shares his personal experiences and beliefs, and encourages readers to trust their intuition and seek knowledge to advance spiritually, emotionally, monetarily, and physically.</p>
+        <!-- Additional content about the book -->
+      </section>
+
+      <section id="testimonials">
+        <h2>Testimonials</h2>
+        <blockquote>
+          "This book changed my life! I highly recommend it to anyone seeking spiritual enlightenment." - Jane
+          Doe
+        </blockquote>
+        <!-- Additional testimonials -->
+      </section>
+
+      <section id="excerpt">
+        <h2>Book Excerpt</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper est a turpis blandit
+          vestibulum. Nam sit amet ante bibendum, hendrerit nulla at, semper dui.</p>
+        <!-- Additional book excerpt content -->
+      </section>
+
+      <section id="buy-now">
+        <h2>Get Your Copy Now</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper est a turpis blandit
+          vestibulum. Nam sit amet ante bibendum, hendrerit nulla at, semper dui.</p>
+        <a href="#" class="button">Buy Now</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; 2023. All rights reserved. | Website produced by <a href="https://www.dicemediagroup.com/">Dice Media Group</a></p>
+    </footer>
+
+  </body>
 </html>

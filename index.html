@@ -67,6 +67,7 @@
       /* Main content styles */
       main {
         padding: 40px;
+        max-width: 24rem; 
       }
 
       section {
@@ -127,6 +128,13 @@
       h1, h2, section p, blockquote {
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
       }
+
+      section p, blockquote {
+        background-color: rgba(128, 128, 128, .20);  
+        backdrop-filter: blur(11px);
+
+      }      
+
     </style>
   </head>
   <body>
@@ -161,17 +169,23 @@
 
       <section id="excerpt">
         <h2>Book Excerpt</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper est a turpis blandit
-          vestibulum. Nam sit amet ante bibendum, hendrerit nulla at, semper dui.</p>
+
+        <div class="excerpt"> 
+          <p>
+            Are you lost?  Have you lost sight of who you really are. We are all one.  We are all Good.Thy will be done through your thoughts.  The few people who are controlling us are godless.  Their thoughts are centered on gathering more money and power.  They have left God out of their lives.  We will return to him.  Then we will know all things. 
+          </p>
+        </div>
+
         <!-- Additional book excerpt content -->
       </section>
 
-      <section id="buy-now">
-        <h2>Get Your Copy Now</h2>
+     <section id="buy-now">
+<!--         <h2>Get Your Copy Now</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper est a turpis blandit
           vestibulum. Nam sit amet ante bibendum, hendrerit nulla at, semper dui.</p>
+-->          
         <a href="https://afterourlives.gumroad.com/l/Book" class="button">Buy Now</a>
-      </section>
+      </section> 
     </main>
 
     <footer>
